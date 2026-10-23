@@ -1,0 +1,9 @@
+.\objects\arm.o: Core\Src\arm.c
+.\objects\arm.o: Core\Inc\arm.h
+.\objects\arm.o: Core\Inc\protocol.h
+.\objects\arm.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\arm.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\arm.o: Core\Inc\arm_config.h
+.\objects\arm.o: Core\Inc\pipeline.h
+.\objects\arm.o: kin\kin_config.h
+.\objects\arm.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\string.h

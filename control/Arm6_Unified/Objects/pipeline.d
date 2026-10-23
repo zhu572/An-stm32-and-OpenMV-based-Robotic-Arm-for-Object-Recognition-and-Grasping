@@ -1,0 +1,14 @@
+.\objects\pipeline.o: Core\Src\pipeline.c
+.\objects\pipeline.o: Core\Inc\pipeline.h
+.\objects\pipeline.o: Core\Inc\arm.h
+.\objects\pipeline.o: Core\Inc\protocol.h
+.\objects\pipeline.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\pipeline.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pipeline.o: Core\Inc\arm_config.h
+.\objects\pipeline.o: kin\kin_config.h
+.\objects\pipeline.o: kin\handeye.h
+.\objects\pipeline.o: kin\mat4.h
+.\objects\pipeline.o: kin\arm_fk.h
+.\objects\pipeline.o: kin\arm_ik.h
+.\objects\pipeline.o: Core\Inc\vision_frame.h
+.\objects\pipeline.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\string.h
