@@ -82,7 +82,9 @@ while(True):
             print("中心X坐标",r[5],"中心Y坐标",r[6],"识别颜色类型","红色")
             sending_data(color_status,r[5],r[6])
     else:
+        # 没有识别到任何目标：也发一帧，让 STM32 知道“目标丢失”，
+        # 而不是一直停留在上一个颜色/坐标上
         color_status = ord('A')
-        pass
-
+        sending_data(color_status, 0, 0)
+    time.sleep_ms(100)
 
