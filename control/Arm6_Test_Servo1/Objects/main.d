@@ -1,9 +1,0 @@
-.\objects\main.o: Core\Src\main.c
-.\objects\main.o: C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h
-.\objects\main.o: C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h
-.\objects\main.o: C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\core_cm3.h
-.\objects\main.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\main.o: C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\cmsis_version.h
-.\objects\main.o: C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\cmsis_compiler.h
-.\objects\main.o: C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\cmsis_armcc.h
-.\objects\main.o: C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h

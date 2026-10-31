@@ -1,8 +1,0 @@
---cpu Cortex-M3
-".\objects\main.o"
-".\objects\system_stm32f1xx.o"
-".\objects\startup_stm32f103xb.o"
---strict --scatter ".\Objects\Arm6_Test_Servo1.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
---info sizes --info totals --info unused --info veneers
---list ".\Listings\Arm6_Test_Servo1.map" -o .\Objects\Arm6_Test_Servo1.axf

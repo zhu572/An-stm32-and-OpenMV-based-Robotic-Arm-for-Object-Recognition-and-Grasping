@@ -1,20 +1,0 @@
-Dependencies for Project 'Arm6_Test_Servo1', Target 'Arm6_Test_Servo1': (DO NOT MODIFY !)
-F (Core\Src\main.c)(0x6ADB37E5)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include-I.\RTE\_Arm6_Test_Servo1-ID:\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F103xB-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6ADAEA55)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6ADAEA55)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\core_cm3.h)(0x6ADAEA20)
-I (D:\KEIL5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\cmsis_version.h)(0x6ADAEA20)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6ADAEA20)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6ADAEA20)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6ADAEA55)
-F (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c)(0x6ADAEA55)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include-I.\RTE\_Arm6_Test_Servo1-ID:\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F103xB-o .\objects\system_stm32f1xx.o --omf_browse .\objects\system_stm32f1xx.crf --depend .\objects\system_stm32f1xx.d)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x6ADAEA55)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x6ADAEA55)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\core_cm3.h)(0x6ADAEA20)
-I (D:\KEIL5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\cmsis_version.h)(0x6ADAEA20)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6ADAEA20)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6ADAEA20)
-I (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x6ADAEA55)
-F (C:\Users\zhu\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.7\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\arm\startup_stm32f103xb.s)(0x6ADAEA55)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Arm6_Test_Servo1-ID:\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\KEIL5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f103xb.lst --xref -o .\objects\startup_stm32f103xb.o --depend .\objects\startup_stm32f103xb.d)
