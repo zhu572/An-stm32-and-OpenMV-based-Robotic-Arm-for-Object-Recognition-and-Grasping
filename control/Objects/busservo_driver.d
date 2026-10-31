@@ -28,3 +28,4 @@
 .\objects\busservo_driver.o: .\Libriry\stm32f10x_usart.h
 .\objects\busservo_driver.o: .\Libriry\stm32f10x_wwdg.h
 .\objects\busservo_driver.o: .\Libriry\misc.h
+.\objects\busservo_driver.o: .\Delay\Delay.h

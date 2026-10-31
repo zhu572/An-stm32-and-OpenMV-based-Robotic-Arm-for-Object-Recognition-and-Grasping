@@ -1,4 +1,5 @@
 #include "stm32f10x.h"                  // Device header
+#include "Delay.h"                      // Delay_ms() 的声明
 
 #define BUS_USART      USART2
 #define BUS_GPIO       GPIOA
@@ -75,8 +76,8 @@ void BusServo_SetPulse(uint8_t id, uint16_t pulse, uint16_t time_ms)
 /* 角度 → 脉宽：0° = 500us，180° = 2500us，90° = 1500us */
 void BusServo_SetAngleTime(uint8_t id, float deg, uint16_t time_ms)
 {
-    float pulse0,pulse1,pulse2,pulse3,pulse4,pulse5;
-		float deg0,deg1,deg2,deg3,deg4,deg5;
+    float pulse0,pulse1,pulse2;
+		float deg0,deg1,deg2;
 	
 		if(id==0)
 	{
@@ -111,7 +112,7 @@ void BusServo_SetAngleTime(uint8_t id, float deg, uint16_t time_ms)
 
 
 
-void placeintial()
+void placeintial(void)
 {
 	
 	int intialpause[6] = {90,135,180,0,90,90 };
@@ -123,7 +124,7 @@ void placeintial()
 	}
 }
 
-void catch1()
+void catch1(void)
 {
 	int intialpause[6] = {90,90,180,15,90,90 };
 	int i;	

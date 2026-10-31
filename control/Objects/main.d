@@ -31,3 +31,4 @@
 .\objects\main.o: .\Hardware\OLED.h
 .\objects\main.o: .\Hardware\Serial.h
 .\objects\main.o: .\Hardware\BusServo_Driver.h
+.\objects\main.o: .\Delay\Delay.h

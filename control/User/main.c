@@ -2,6 +2,7 @@
 #include "OLED.h"
 #include "Serial.h"
 #include "BusServo_Driver.h"
+#include "Delay.h"
 
 
 static void Show_Frame(uint8_t color, uint8_t cx, uint8_t cy, uint16_t n)
@@ -28,12 +29,6 @@ static void Show_Frame(uint8_t color, uint8_t cx, uint8_t cy, uint16_t n)
 
 int main(void)
 {
-	uint8_t  color = 0;
-	uint8_t  cx = 0;
-	uint8_t  cy = 0;
-	uint16_t n = 0;
-	
-	
 	OLED_Init();
 	Delay_Init();
 	Serial_Init();
@@ -41,16 +36,9 @@ int main(void)
 	BusServo_Init();
 
 	Show_Frame('A', 0, 0, 0);
-  placeintial();
+	placeintial();
 
- 
-	
 	while (1)
 	{
-		if (Serial_GetFrame(&color, &cx, &cy))
-		{
-			n++;
-			Show_Frame(color, cx, cy, n);
-		}
 	}
 }
