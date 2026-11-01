@@ -3,11 +3,11 @@
         {
             "name": "Target 1",
             "includePath": [
-                "d:\\PROJECT\\OLED\\Start",
-                "d:\\PROJECT\\OLED\\User",
-                "d:\\PROJECT\\OLED\\Libriry",
-                "d:\\PROJECT\\OLED\\Hardware",
-                "d:\\PROJECT\\OLED\\Delay",
+                "d:\\code\\stm32\\control\\Start",
+                "d:\\code\\stm32\\control\\User",
+                "d:\\code\\stm32\\control\\Libriry",
+                "d:\\code\\stm32\\control\\Hardware",
+                "d:\\code\\stm32\\control\\Delay",
                 "D:\\KEIL5\\ARM\\ARMCC\\include",
                 "D:\\KEIL5\\ARM\\ARMCC\\include\\rw"
             ],

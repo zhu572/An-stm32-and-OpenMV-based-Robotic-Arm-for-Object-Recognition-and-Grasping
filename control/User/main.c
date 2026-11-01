@@ -29,6 +29,7 @@ static void Show_Frame(uint8_t color, uint8_t cx, uint8_t cy, uint16_t n)
 
 int main(void)
 {
+	float degree[6]={90.0f,90.0f,90.0f,90.0f,90.0f,90.0f};
 	OLED_Init();
 	Delay_Init();
 	Serial_Init();
@@ -38,7 +39,11 @@ int main(void)
 	Show_Frame('A', 0, 0, 0);
 	placeintial();
 
+
 	while (1)
 	{
+
+		
+		
 	}
 }
